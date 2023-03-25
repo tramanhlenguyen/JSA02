@@ -1,0 +1,470 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100% ;
+    height: 100% ;
+    min-height: 500px ;
+    min-width: 900px ;
+    margin: 0px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } 
+div#page {
+height: 100% ;
+} 
+div#right {
+float: right ;
+ height: 100% ;
+ width: 300px ;
+}
+div#rt_bot {
+height: 200px ;
+}
+div#left {
+float: left ;
+}
+.thirty {
+height: 30px ;
+}
+.tall {
+height: 100% ;
+}
+div#lf_bot {
+height: 50px ;
+}
+/* Header */
+.h1{
+    width: 100%;
+}
+.h1 {
+    display: flex;
+    padding-left: 5%;;
+    padding-right: 5%;
+    height: 60.67px;
+    background-color:#F3C301;
+}
+.hp1{
+    width: 20%;
+    padding-left: 25px;
+    font-size: x-large;
+    padding-top: 10.5px;
+}
+.hp2{
+    width: 40%;
+    border-radius: 20px;
+    background-color: #fee3a2;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 13px;
+    padding-top: 3px;
+    display: flex;
+}
+.dt1{
+    font-size: small;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.dt2{
+    color: #757575;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.hp3{
+    width: 10%;
+    font-size:small;
+    padding-top: 22px;
+    padding-left: 25px;
+}
+.hp4{
+    width: 10%;
+    font-size:small;
+    padding-top: 22px;
+    padding-left: 20px;
+}.hp5{
+    width: 10%;
+    font-size:small;
+    padding-top: 22px;
+    padding-left: 30px;
+}
+.hp6{
+    width: 10%;
+    font-size:small;
+    padding-top: 22px;
+    padding-left: 20px;
+}
+.h2{
+    display: flex;
+    padding-left: 8%;
+    font-size: small;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hf1{
+    width: 13%;
+}
+.hf2{
+    width:10%;
+    padding-left: 6px;
+}
+.hf3{
+    width: 6%;
+    margin-left: 20px;
+}
+.hf4{
+    width: 6%;
+    padding-left: 6px;
+    margin-left: 10px;
+}
+.hf5{
+    width: 10%;    
+    padding-left: 6px;
+    margin-left: 10px;
+}
+.hf6{
+    width: 10%;
+    padding-left: 6px;
+}
+.hf7{
+    width: 6%;
+    padding-left: 6px;
+    margin-left: 10px;
+}
+.hf8{
+    width: 10%;
+    padding-left: 6px;
+    margin-left: 10px;
+}
+.b1{
+    height: 552px;
+    background-color: burlywood;
+    background-image: url(https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Japan-Nachisan-Seiganto_189118511-1440x823-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+.ba1{
+    background-color: white;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 10px;
+    height: 50px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+.b2{
+    margin-top: 85px;
+    font-size: xx-large;
+    padding-left: 5%;
+}
+.b3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.r{
+    width: 17.5%;
+    height:250px;
+    margin-top: 20px;
+}
+.b4{
+    margin-top: 85px;
+    background: linear-gradient(rgba(193,35,35,1), rgba(193,35,35,0.3));
+    height: 600px;
+    padding-top: 50px;
+}
+.s{
+    background-color: white;
+    height: 350px;
+    width: 23%;
+    padding: 10px;
+}
+.img{
+    height: 225px;
+    width: 100%;
+
+}
+.g1{
+    font-size: xx-large;
+    padding-left: 5%;
+    color: white;
+    padding-bottom: 50px;
+}
+.g2{
+    display: flex;
+    font-size: large;
+    justify-content: space-evenly
+}
+.b7{
+    margin-top: 85px;
+    font-size: xx-large;
+    padding-left: 5%;
+}
+.b8{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.e{
+    width: 20%;
+    height: 350px;
+    font-size: large;
+}
+.e1{
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background: linear-gradient(rgba(295,222, 179,0.5), rgba(0,0,0,0)), url(https://media.istockphoto.com/id/862034252/photo/group-of-young-people-watching-at-a-smart-phone-and-laughing.jpg?s=612x612&w=0&k=20&c=1pRQreb8fjyN3HumNo7hOSCIxaNpZKdOadDHrRxBFx4=);
+    background-size: cover;
+}
+.e2{
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(rgba(139 ,69 ,19,0.5), rgba(0,0,0,0)), url(https://i.pinimg.com/564x/69/3d/8c/693d8c2253903307f4fbde0a444ec858.jpg);
+    background-size: cover;
+}
+.e3{
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(rgba(255,193,193,0.5), rgba(0,0,0,0)), url(https://i.pinimg.com/564x/b3/34/9a/b3349aedad8e5bec65edd58793438a62.jpg);
+    background-size: cover;
+}
+.e4{
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(rgba(152,251,152,0.5), rgba(0,0,0,0)), url(https://i.pinimg.com/564x/29/29/d4/2929d4d6a591f99b9b21e56c6a149f87.jpg);
+    background-size: cover;
+}
+.tt{
+    padding: 13px;
+}
+.b9{
+    margin-top: 85px;
+    font-size: xx-large;
+    padding-left: 5%;
+    background-image: linear-gradient(to right, #F3C301, #FFE4B5);
+}
+.b10{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 45px;
+}
+.m{
+    width: 30%;
+    height: 250px;
+    padding: 9px;
+}
+.mda{
+    font-size: large;
+}
+.mdb{
+    font-size: small;
+    margin-top: 10px;
+}
+.img9{
+    margin-top: 45px;
+    width: 50%;
+    height: 165px;
+}
+.img10{
+    margin-top: 45px;
+    width: 50%;
+    height: 165px;
+}
+.img11{
+    margin-top: 45px;
+    width: 50%;
+    height: 165px;
+}
+footer{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color:#CFCFCF;
+}
+.f{
+    padding: 25px;
+    width: 30%;
+    height: 150px;
+}
+.img1{
+    width: 155px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.img2{
+    width: 155px;
+    margin-top: 20px;
+}
+.img3{
+    width: 155px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.img4{
+    width: 155px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.t2{
+    margin-top: 10px;
+    font-size: large;
+}
+.de{
+    font-size: large;
+}
+.ds{
+    margin-top: 9px;
+    font-size: x-small;
+}
+.tl{
+    font-size: medium;
+    margin-top: 10px;
+}
+.f{
+    display:flex;
+    flex-direction: column;
+}
+.fd{
+    font-size: small;
+    margin-top: 20px;
+}
+.b81{
+    font-size: xx-large;
+    margin-top: 75px;
+    padding-left: 45px;
+}
+.b82{
+    display: flex;
+    font-size: medium;
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+.bd{
+    width: 45%;
+    height: 275px;
+}
+.bd1{
+    background: url(https://media.istockphoto.com/id/1254994299/photo/cropped-image-of-happy-girl-using-smartphone-device-while-chilling-at-home.jpg?s=612x612&w=0&k=20&c=uRV8ETO84sQxRE4ZT0dSkeWTo9TpEmAbKdkPwdnKvPQ=);
+    background-size: cover;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: large;
+}
+.bd2{
+    background: url(https://www.wander-lust.nl/wp-content/uploads/2018/07/7S9C9949edit-copy-e1530635856425.jpg);
+    background-size: cover;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: large;
+}
+.b83{
+    font-size: xxx-large;
+    margin-top: 85px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+.b84{
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+}
+.b85-p0{
+    margin-top: 35px;
+    text-align: center;
+    height: 555px;
+    text-align: center;
+}
+
+.book{
+    background-color:#A52A2A;
+}
+.b85-p2{
+margin-top: 55px;
+display: flex;
+justify-content: space-evenly;
+}
+.img85{
+    width: 22%;
+    height: 250px;
+    border-radius: 10px;
+}
+.i{
+    height:30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 15px
+}
+.i1{
+    width: 55%;
+}
+.i3{
+    width: 55%;
+}
+.i5{
+    width: 55%;
+}
+.submit{
+    margin-top:45px;
+    height: 35px;
+    width: 10%;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.submit:hover{
+    background-color: #CDC9C9;
+    border:#CDC9C9;
+    color: black;
+    margin-top:45px;
+}
+.ba0{
+    font-size: xxx-large;
+    color: white;
+    margin-left: 123px;
+}
+.ba-i{
+    border: none;
+    font-size: medium;
+    padding-top: 15px;
+}
+
+.ba-i:focus {
+    outline: none;
+}
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
+
+
+
+
